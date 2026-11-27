@@ -1,13 +1,25 @@
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: #e7f1f9;
+}
+
 body {
-  background-color: #A7D5E9;
-  background-image: linear-gradient(180deg, #D9E7F4, #377398);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
   width: 380px;
   margin-right: auto;
   margin-left: auto;
+  color: #fdffff;
 }
+
+.gradient-text {
+  background-image: linear-gradient(185deg, #A7D5E9 0%, #377398 95%);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 button {
   padding: 5px 20px;
   background-color: #00a9ef;
@@ -16,6 +28,4 @@ button {
 }
 input {
   height: 24px;
-  background-color: #ffffff;
-  color: #000000;
 }
