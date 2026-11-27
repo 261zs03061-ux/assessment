@@ -1,7 +1,9 @@
 body {
+  display: inline-block;
   background: linear-gradient(180deg, #D9E7F4 0%, #A7D5E9 40%, #377398 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin:0 auto 5%;
   margin-right: auto;
   margin-left: auto;
 }
